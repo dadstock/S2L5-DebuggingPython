@@ -1,0 +1,10 @@
+ENG
+The code allows us to use a virtual assistant to perform certain tasks (such as displaying today's date, the exact time, etc...). The code works with a while True: loop that prompts for input, asking what we want 
+to know (we can also use the help command to see the available commands). If one of the commands is entered, the virtual assistant function (def assistenze_virtuale(comando):) will be triggered, and the appropriate if and elif statements will execute
+based on the request made. If "esci"("exit") is typed, the program will greet us and close. However, if an unrecognized command is entered, the program will prompt us to enter a valid combination.
+
+ITA
+Il codice ci permette di usare un'assistenze virtuale per eseguire determinati compiti (visualizzare la data di oggi, le ore precise etc...). Il codice funziona tramite il ciclo while True: che attraverso 
+una richiesta di input ci chiede cosa vogliamo sapere (in caso possiamo utilizzare anche il comando help, per vedere i comandi disponibili). Se uno dei comandi viene digitato, parte la funzione assistente virtuale
+(def assistenze_virtuale(comando): ), e partiranno if ed elif a seconda di quale richiesta si è fatta. Se si digita "esci", il programma ci saluterà e si chiuderà, invece se si dovesse digitare un comando non 
+riconosciuto, il programma ci chiederà di inserire una combinazione valida.
